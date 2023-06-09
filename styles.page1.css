@@ -1,0 +1,145 @@
+
+/* Body and Page Layout */
+body {
+  background: radial-gradient(circle, #bad4fa, #6464fa);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: block;
+ 
+}
+
+
+  /*code for the navigation bar*/
+  nav {
+    width: 100%;
+    height: 90px;
+    color: rgb(146, 146, 146);
+    background-image: linear-gradient(90deg, white 0%, rgb(99, 96, 244) 100%);
+    color: rgb(198, 223, 73); border-radius: 25px;
+
+}
+
+nav p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    line-height: 30px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left;  
+    
+}
+
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    
+}
+
+
+nav ul li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 42, 26);
+    font-size: 16px;
+    ;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+
+
+nav ul li ul {
+   display: none;
+   position: absolute;
+   background-color: rgb(180, 204, 237);
+      padding: 10PX;
+   border-radius: 0px 0px 4px 4px
+}
+
+
+nav ul li:hover  ul {
+    display: block;
+}
+
+   
+nav ul li ul li a {
+    padding: 8px 22px;
+}
+
+
+nav ul li ul li a:hover{
+    background-color: rgba(236, 227, 236, 0.703);
+}
+
+
+
+
+#container {
+border: black solid 4px;
+margin-right: 38%;
+margin-left: 38%;
+background-color: rgb(212, 217, 220);
+}
+
+
+
+
+/* Form Styling */
+form {
+  border: 2px solid #000000;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+input[type="checkbox"],
+input[type="radio"] { 
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  font-size: 18px;
+  padding: 8px;
+}
+
+button[type="submit"] {
+  background-color: #ffcc00;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Pizza Preview Styling */
+#pizza-image {
+  max-width: 300px;
+  margin-bottom: 10px;
+  
+}
+
+#pizza-price {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Other Styles (optional, customize as needed) */
+
+

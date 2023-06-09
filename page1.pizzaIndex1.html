@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dough it Yourself</title>
+    <link rel="stylesheet" href="styles.page1.css">
+</head>
+<body>
+    <nav> <!--Navi bar-->
+        <p>Dough it Yourself</p> <!--Dough it Yourself opener to the navi bar-->
+                 <ul>
+                   <li><a href="page1.pizzaIndex1.html">Home</a></li>
+                   <li><a href="page2pizza.final.html">Pizza Submission</a></li>
+                 
+                                
+                 </ul>
+       
+            </nav>
+
+    <form id="pizza-form">
+        <h3>Select Toppings:</h3>
+        <input type="checkbox" name="toppings" value="pepperoni" > Pepperoni
+        <input type="checkbox" name="toppings" value="mushrooms"> Mushrooms
+        <input type="checkbox" name="toppings" value="onions"> Onions
+        <input type="checkbox" name="toppings" value="tomato"> Tomato
+        <input type="checkbox" name="toppings" value="Sausage"> Sauasage
+        <input type="checkbox" name="toppings" value="peppers"> peppers
+
+        <!-- Add more topping options -->
+      
+        <h3>Select Crust Type:</h3>
+        <input type="radio" name="crust" value="thin"> Thin Crust
+        <input type="radio" name="crust" value="Pan"> Pan Crust
+        <input type="radio" name="crust" value="deepDish"> Deep Dish Crust
+        
+      
+        <h3>Select Sauce:</h3>
+        <input type="radio" name="sauce" value="tomato"> Tomato Sauce
+        <input type="radio" name="sauce" value="bbq"> BBQ Sauce
+        <input type="radio" name="sauce" value="white"> White Sauce
+        
+        
+      
+        <h3>Pizza Preview:</h3>
+        <img id="pizza-image" src="whole pizza.jpg" alt="Pizza Image" onclick="imageHover();" onmouseenter="changeCursor();">
+        <h4 id="pizza-price">$10.00</h4>
+      
+        <button type="submit">Order Pizza</button>
+      </form>
+      <script src="script.page1.js"></script>
+      
+      
+</body>
+</html>

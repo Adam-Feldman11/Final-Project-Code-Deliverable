@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Pizza Submission</title>
+  <link rel="stylesheet" href="stylepage2pizza.final.css">
+  
+</head>
+  <body>
+    <nav> <!--Navi bar-->
+      <p>Dough it Yourself</p> <!--Dough it Yourself opener to the navi bar-->
+               <ul>
+                 <li><a href="page1.pizzaIndex1.html">Home</a></li>
+                 <li><a href="page2pizza.final.html">Pizza Submission</a></li>
+                
+                          
+   
+                            
+                              
+                              
+               </ul>
+              
+   
+   
+   
+   
+          </nav>
+    <!--div holding the form-->
+  <div class="container">
+    <h1>Favorite Pizza Submission</h1>
+    <img src="deep dish slice lou.jpg" id="deepdishpizza" width="400px" alt="Lou Malnatis pizza slice" onclick="imageHover();" onmouseenter="changeCursor();">
+    <!--form for the pizza submission-->
+    <form id="pizzaForm" onsubmit="return ValidateInput();">
+      <form id="pizzaForm">
+              <label for="restaurantName">Restaurant Name:</label>
+        <input type="text" id="restaurantName" name="restaurantName" required onfocus="this.value='';" onblur="showName();">
+
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required  onfocus="this.value='';" onblur="showLocation();">
+  
+        <label for="toppings">Toppings:</label>
+        <textarea id="toppings" name="toppings" required onfocus="this.value='';" onblur="showToppings();"></textarea>
+  
+        <label for="pizzaImage">Upload an Image of the Pizza:</label>
+        <input type="file" id="pizzaImage" name="pizzaImage" ;>
+  
+        <button type="submit">Submit</button>
+      </form>
+       
+  </div>
+  <!--link to my javascript-->
+  <script src="script.page2pizza.final1.js"></script>
+  
+</body>
+</html>
